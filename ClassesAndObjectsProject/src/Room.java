@@ -8,6 +8,7 @@ public class Room {
 	int floorArea;
 	int wallArea;
 	
+	
 	Room(int length, int width, int height){
 		//super(); // if you have note provided this() or super()
 		this.length = length;

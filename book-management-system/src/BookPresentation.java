@@ -1,11 +1,21 @@
 import java.util.Scanner;
 
+import pojo.BookPojo;
+import service.BookService;
+import service.BookServiceImpl;
+
+
 public class BookPresentation {
 
 	public static void main(String[] args) {
 
 		// here we will have the input and the outputs
 		// the menus are displayed here
+		
+		// presentation layers calls the methods of the service layer
+		// so i need an object of BookServiceImpl
+		BookService bookService = new BookServiceImpl(); // always the interface reference variable should point to the object of the implementation class
+		
 		Scanner scan = new Scanner(System.in);
 		char continueApp = 'y';
 
@@ -29,7 +39,18 @@ public class BookPresentation {
 			switch (option) {
 			case 1:
 				// will remove this statement later an dput the actual code here
-				System.out.println("Listing all the books....");
+				// System.out.println("Listing all the books....");
+				
+				BookPojo[] fetchedAllBooks = bookService.getAllBooks();
+				System.out.println("=============================================================================");
+				System.out.println("ID\tTITLE\t\t\t\t\tAUTHOR\t\tGENRE\tCOST");
+				System.out.println("=============================================================================");
+				for(int i=0;i<fetchedAllBooks.length;i++) {
+					if(fetchedAllBooks[i] != null) {
+						System.out.println(fetchedAllBooks[i].getBookId() + "\t" + fetchedAllBooks[i].getBookTitle() + "\t" + fetchedAllBooks[i].getBookAuthor() + "\t" + fetchedAllBooks[i].getBookGenre() + "\t" + fetchedAllBooks[i].getBookCost());
+					}
+				}
+				System.out.println("=============================================================================");
 				break;
 			case 2:
 				// will remove this statement later an dput the actual code here

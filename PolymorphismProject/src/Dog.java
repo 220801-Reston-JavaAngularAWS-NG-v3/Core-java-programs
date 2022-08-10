@@ -9,4 +9,9 @@ public class Dog extends Animal{
 	void mobility() {
 		System.out.println("Dog moves on 4 legs...");
 	}
+	
+	@Override
+	void breathe() {
+		System.out.println("Dog breathes through lungs...");
+	}
 }

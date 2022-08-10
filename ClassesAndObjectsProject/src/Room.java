@@ -121,25 +121,29 @@ public class Room {
 		return paintingCost;
 	}
 
-	@Override
-	public boolean equals(Object other) {
-		// provide my definition of room objects equality
-		// the current objects length, width and height should be the same as the other object length, width and height
-		Room otherRoom = (Room)other;
-		if(this.length == otherRoom.length && this.width == otherRoom.width && this.height == otherRoom.height) {
-			return true;
-		}
-		
-		return false;
-		
-	}
-	
-		
-	// whenever you overirde the equals methods you should override the hashcode method() as well
-	@Override
-	public int hashCode() {
-		return length + width + height;
-	}
+//	@Override
+//	public boolean equals(Object other) {
+//		// provide my definition of room objects equality
+//		// the current objects length, width and height should be the same as the other object length, width and height
+//		Room otherRoom = (Room)other;
+//		if(otherRoom == null) {
+//			return false;
+//		}else if(this.length == otherRoom.length && this.width == otherRoom.width && this.height == otherRoom.height) {
+//			return true;
+//		}
+//		
+//		return false;
+//		
+//	}
+//	
+//		
+//	// whenever you overirde the equals methods you should override the hashcode method() as well
+//	// whenever you say 2 objects are equal then their hashcodes also have to be equal
+//	@Override
+//	public int hashCode() {
+//		return (length + width + height);
+//	}
+//	
 	
 	
 	
@@ -147,6 +151,34 @@ public class Room {
 	@Override
 	public String toString() {
 		return "Room [length=" + length + ", width=" + width + ", height=" + height + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + height;
+		result = prime * result + length;
+		result = prime * result + width;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Room other = (Room) obj;
+		if (height != other.height)
+			return false;
+		if (length != other.length)
+			return false;
+		if (width != other.width)
+			return false;
+		return true;
 	}
 	
 	

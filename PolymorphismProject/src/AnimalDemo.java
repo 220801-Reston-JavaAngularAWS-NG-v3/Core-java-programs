@@ -2,9 +2,9 @@
 public class AnimalDemo {
 
 	public static void main(String[] args) {	
-		Animal animal = new Animal();
-		animal.mobility();
-		animal.livingThing();
+//		Animal animal = new Animal(); // this is not possible after Animal became an abstract class
+//		animal.mobility();
+//		animal.livingThing();
 		
 		System.out.println("===============");
 		

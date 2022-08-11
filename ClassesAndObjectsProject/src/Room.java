@@ -115,6 +115,10 @@ public class Room {
 		this.wallArea = wallArea;
 	}
 
+	static int doubleHeight() {
+		return 2 * height;
+	}
+	
 	int calculateFloorArea() {
 		floorArea = length * width;
 		return floorArea;

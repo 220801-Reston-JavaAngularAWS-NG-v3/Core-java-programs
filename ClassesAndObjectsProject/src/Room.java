@@ -11,17 +11,22 @@ public class Room {
 
 	private int length;
 	private int width;
-	private int height;
+	static final int height;
 	private String color;
 	private int roomNo;
 	private int floorArea;
 	private int wallArea;
 
+	static {
+		height = 150;
+	}
+	
 	Room(int length, int width, int height) {
 		// super(); // if you have note provided this() or super()
 		this.length = length;
 		this.width = width;
-		this.height = height;
+		//this.height = height; //removed this because height became static and
+								// have initialized it in the static block
 
 	}
 

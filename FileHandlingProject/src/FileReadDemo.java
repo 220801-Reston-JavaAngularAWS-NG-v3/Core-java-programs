@@ -20,7 +20,7 @@ public class FileReadDemo {
 			
 			// step 3  - let's print the string on the console
 			System.out.println(strData);
-			
+			fis.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -24,7 +24,7 @@ public class FileWriteDemo {
 			System.out.println("Contents written to the file sample.txt....");
 			
 			// try writing to a file character by character
-			// try reading froma  file character by character
+			// try reading from a  file character by character
 			// is there any other file related streams that I can use? explore FileReader and FileWriter
 			// have a look at java's IO stream heirachy
 			

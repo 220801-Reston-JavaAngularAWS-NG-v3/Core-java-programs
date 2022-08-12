@@ -68,6 +68,9 @@ public class BookDaoArrayImpl implements BookDao{
 	public BookPojo getABook(int bookId) {
 		BookPojo fetchedBookPojo = null;
 		for(int i=0;i<allBooks.length;i++) {
+			if(allBooks[i] == null) {
+				break;
+			}
 			if(allBooks[i].getBookId() == bookId) {
 				// if we have reached here means a match is found
 				fetchedBookPojo = new BookPojo(allBooks[i].getBookId(), allBooks[i].getBookTitle(), allBooks[i].getBookAuthor(), allBooks[i].getBookGenre(), allBooks[i].getBookCost(), allBooks[i].getBookImageUrl());

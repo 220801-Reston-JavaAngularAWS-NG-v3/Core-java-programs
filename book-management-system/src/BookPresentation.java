@@ -53,20 +53,79 @@ public class BookPresentation {
 				System.out.println("=============================================================================");
 				break;
 			case 2:
-				// will remove this statement later an dput the actual code here
-				System.out.println("Adding a book....");
+				System.out.println("Enter Book Title: ");
+				String bookTitle = scan.nextLine();
+				scan.nextLine();
+				
+				System.out.println("Enter Book Authur: ");
+				String bookAuthur = scan.nextLine();
+				scan.nextLine();
+				
+				System.out.println("Enter Book Genre: ");
+				String bookGenre = scan.nextLine();
+				scan.nextLine();
+				
+				System.out.println("Enter Book Cost: ");
+				int bookCost = scan.nextInt();
+				
+				// now create a book pojo object and set these values into it
+				BookPojo newBook = new BookPojo();
+				newBook.setBookTitle(bookTitle);
+				newBook.setBookAuthor(bookAuthur);
+				newBook.setBookGenre(bookGenre);
+				newBook.setBookCost(bookCost);
+				
+				BookPojo newBookPojoWithId = bookService.addBook(newBook);
+				System.out.println("New book with ID " + newBookPojoWithId.getBookId() + " is added!! ");
+				
 				break;
 			case 3:
-				// will remove this statement later an dput the actual code here
-				System.out.println("Updating a book....");
+				System.out.println("Please enter the Book ID: ");
+				int bookId = scan.nextInt();
+				BookPojo fetchedBookPojo = bookService.getABook(bookId);
+				if(fetchedBookPojo == null) {
+					// the book with the id is not found
+					System.out.println("Book with ID " + bookId + " does not exist!!");
+				} else {
+					// the book with the id has been found
+					// so display the book information
+					System.out.println("=============================");
+					System.out.println("BOOK ID : " + fetchedBookPojo.getBookId());
+					System.out.println("BOOK TITLE : " + fetchedBookPojo.getBookTitle());
+					System.out.println("BOOK AUTHOR : " + fetchedBookPojo.getBookAuthor());
+					System.out.println("BOOK GENRE : " + fetchedBookPojo.getBookGenre());
+					System.out.println("BOOK COST : " + fetchedBookPojo.getBookCost());
+					System.out.println("=============================");
+					System.out.println("Enter the new cost: ");
+					int newCost = scan.nextInt();
+					fetchedBookPojo.setBookCost(newCost);
+					BookPojo updatedBookPojo =bookService.updateBook(fetchedBookPojo);
+					System.out.println("Book cost updated successfully!!");
+					
+				}
+				
 				break;
 			case 4:
 				// will remove this statement later an dput the actual code here
 				System.out.println("Deleting a book....");
 				break;
 			case 5:
-				// will remove this statement later an dput the actual code here
-				System.out.println("Fetching a book....");
+				System.out.println("Please enter the Book ID: ");
+				int fetchBookId = scan.nextInt();
+				BookPojo returnedBookPojo = bookService.getABook(fetchBookId);
+				if(returnedBookPojo == null) {
+					// the book with the id is not found
+					System.out.println("Book with ID " + fetchBookId + " does not exist!!");
+				} else {
+					// the with with the id has been found
+					// so display the book information
+					System.out.println("BOOK ID : " + returnedBookPojo.getBookId());
+					System.out.println("BOOK TITLE : " + returnedBookPojo.getBookTitle());
+					System.out.println("BOOK AUTHOR : " + returnedBookPojo.getBookAuthor());
+					System.out.println("BOOK GENRE : " + returnedBookPojo.getBookGenre());
+					System.out.println("BOOK COST : " + returnedBookPojo.getBookCost());
+				
+				}
 				break;
 			case 6:
 				System.out.println("*************************************************");

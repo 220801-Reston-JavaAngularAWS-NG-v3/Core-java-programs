@@ -74,11 +74,12 @@ public class BookDaoJdbcImpl implements BookDao{
 			// as i traverse i would copy the contetns into a book pojo object
 			while(rs.next()) {
 				bookPojo = new BookPojo();
-				bookPojo.setBookTitle(rs.getString(1));
-				bookPojo.setBookAuthor(rs.getString(2));
-				bookPojo.setBookGenre(rs.getString(3));
-				bookPojo.setBookCost(rs.getInt(4));
-				bookPojo.setBookImageUrl(rs.getString(5));
+				bookPojo.setBookId(rs.getInt(1));
+				bookPojo.setBookTitle(rs.getString(2));
+				bookPojo.setBookAuthor(rs.getString(3));
+				bookPojo.setBookGenre(rs.getString(4));
+				bookPojo.setBookCost(rs.getInt(5));
+				bookPojo.setBookImageUrl(rs.getString(6));
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block

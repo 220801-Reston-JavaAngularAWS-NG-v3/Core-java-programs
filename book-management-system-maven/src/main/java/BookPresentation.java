@@ -54,16 +54,14 @@ public class BookPresentation {
 				break;
 			case 2:
 				System.out.println("Enter Book Title: ");
-				String bookTitle = scan.nextLine();
 				scan.nextLine();
+				String bookTitle = scan.nextLine();
 				
 				System.out.println("Enter Book Authur: ");
 				String bookAuthur = scan.nextLine();
-				scan.nextLine();
 				
 				System.out.println("Enter Book Genre: ");
 				String bookGenre = scan.nextLine();
-				scan.nextLine();
 				
 				System.out.println("Enter Book Cost: ");
 				int bookCost = scan.nextInt();
@@ -76,6 +74,7 @@ public class BookPresentation {
 				newBook.setBookCost(bookCost);
 				
 				BookPojo newBookPojoWithId = bookService.addBook(newBook);
+				System.out.println("*************************************************");
 				System.out.println("New book with ID " + newBookPojoWithId.getBookId() + " is added!! ");
 				
 				break;
@@ -100,14 +99,35 @@ public class BookPresentation {
 					int newCost = scan.nextInt();
 					fetchedBookPojo.setBookCost(newCost);
 					BookPojo updatedBookPojo =bookService.updateBook(fetchedBookPojo);
+					System.out.println("*************************************************");
 					System.out.println("Book cost updated successfully!!");
-					
 				}
 				
 				break;
 			case 4:
-				// will remove this statement later an dput the actual code here
-				System.out.println("Deleting a book....");
+				System.out.println("Please enter the Book ID to be removed: ");
+				int inputBookId = scan.nextInt();
+				BookPojo returnBookPojo = bookService.getABook(inputBookId);
+				if(returnBookPojo == null) {
+					// the book with the id is not found
+					System.out.println("Book with ID " + inputBookId + " does not exist!!");
+				} else {
+					// the book with with the id has been found
+					// so display the book information
+					System.out.println("=============================");
+					System.out.println("BOOK ID : " + returnBookPojo.getBookId());
+					System.out.println("BOOK TITLE : " + returnBookPojo.getBookTitle());
+					System.out.println("BOOK AUTHOR : " + returnBookPojo.getBookAuthor());
+					System.out.println("BOOK GENRE : " + returnBookPojo.getBookGenre());
+					System.out.println("BOOK COST : " + returnBookPojo.getBookCost());
+					System.out.println("=============================");
+				}
+				System.out.println("Are you sure that you want to remove the book? (y/n) :");
+				char deleteConfirm = scan.next().charAt(0);
+				if(deleteConfirm == 'y') {
+					bookService.deleteBook(inputBookId);
+					System.out.println("Book removed!!");
+				}
 				break;
 			case 5:
 				System.out.println("Please enter the Book ID: ");
@@ -119,11 +139,13 @@ public class BookPresentation {
 				} else {
 					// the with with the id has been found
 					// so display the book information
+					System.out.println("=============================");
 					System.out.println("BOOK ID : " + returnedBookPojo.getBookId());
 					System.out.println("BOOK TITLE : " + returnedBookPojo.getBookTitle());
 					System.out.println("BOOK AUTHOR : " + returnedBookPojo.getBookAuthor());
 					System.out.println("BOOK GENRE : " + returnedBookPojo.getBookGenre());
 					System.out.println("BOOK COST : " + returnedBookPojo.getBookCost());
+					System.out.println("=============================");
 				
 				}
 				break;

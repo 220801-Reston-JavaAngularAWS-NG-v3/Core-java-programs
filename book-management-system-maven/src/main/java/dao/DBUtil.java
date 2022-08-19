@@ -25,7 +25,7 @@ public class DBUtil {
 		String userName = "postgres";
 		String password = "root";
 		try {
-			// using single design pattern to always return the same connection
+			// using singleton design pattern to always return the same connection
 			if(conn == null) {
 				conn = DriverManager.getConnection(connectionUrl, userName, password); // this line gets us a new connection from the DB every time when it is called
 				// we dont want that

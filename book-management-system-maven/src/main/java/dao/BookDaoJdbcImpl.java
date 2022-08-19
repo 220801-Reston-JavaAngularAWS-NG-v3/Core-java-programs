@@ -10,10 +10,45 @@ import pojo.BookPojo;
 
 public class BookDaoJdbcImpl implements BookDao{
 
+	// next week once we have session on Collections we will change the return type of this method to a collection
 	@Override
 	public BookPojo[] getAllBooks() {
-		// TODO Auto-generated method stub
-		return null;
+		Connection connection = DBUtil.makeConnection();
+		BookPojo[] fetchedBooks = null;
+		try {
+			Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+			String query = "SELECT * FROM book_details";
+			ResultSet rs = stmt.executeQuery(query);
+			
+			// create an array whose size is the same as the number of record available in the rs
+			
+			// first let us find out the number of records in the rs
+			int counter = 0;
+			while(rs.next()) {
+				counter++;
+			}
+			// now create the BookPojo array
+			fetchedBooks = new BookPojo[counter];
+			
+			// iterating through the rs and copying it into the array
+			int i = 0;
+			rs.beforeFirst();
+			while(rs.next()) {
+				fetchedBooks[i] = new BookPojo();
+				fetchedBooks[i].setBookId(rs.getInt(1));
+				fetchedBooks[i].setBookTitle(rs.getString(2));
+				fetchedBooks[i].setBookAuthor(rs.getString(3));
+				fetchedBooks[i].setBookGenre(rs.getString(4));
+				fetchedBooks[i].setBookCost(rs.getInt(5));
+				fetchedBooks[i].setBookImageUrl(rs.getString(6));	
+				i++;
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// return the array of book pojo objects
+		return fetchedBooks;
 	}
 
 	@Override
@@ -42,8 +77,21 @@ public class BookDaoJdbcImpl implements BookDao{
 
 	@Override
 	public BookPojo updateBook(BookPojo bookPojo) {
-		// TODO Auto-generated method stub
-		return null;
+Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
+		
+		String query = "UPDATE book_details SET book_cost=? WHERE book_id=?";
+		try {
+			PreparedStatement pstmt = connection.prepareStatement(query);
+			
+			pstmt.setInt(1, bookPojo.getBookCost());
+			pstmt.setInt(2, bookPojo.getBookId());
+						
+			pstmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return bookPojo;
 	}
 
 	@Override
@@ -71,7 +119,7 @@ public class BookDaoJdbcImpl implements BookDao{
 			String query = "SELECT * FROM book_details WHERE book_id=" + bookId;
 			ResultSet rs = stmt.executeQuery(query);
 			// traverse the rs
-			// as i traverse i would copy the contetns into a book pojo object
+			// as i traverse i would copy the contents into a book pojo object
 			while(rs.next()) {
 				bookPojo = new BookPojo();
 				bookPojo.setBookId(rs.getInt(1));

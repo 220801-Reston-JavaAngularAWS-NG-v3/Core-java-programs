@@ -901,3 +901,6 @@ de.yatta.eclipse.launcher.communication.HttpTypedException: HTTP 401
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 13:16:01.224
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2022-08-22 17:56:08.000
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.

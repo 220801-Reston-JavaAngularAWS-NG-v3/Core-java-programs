@@ -12,6 +12,7 @@ public class ArrayListDemo {
 											// lets say tomorrow i want allNames to point to different implementation it is possible here
 		
 		List<String> allNames = new ArrayList<String>(); 
+		
 		// step 2 - perform the CRUD operations on the collection
 
 		// C - Create

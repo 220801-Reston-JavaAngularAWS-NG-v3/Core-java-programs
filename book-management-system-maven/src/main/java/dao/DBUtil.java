@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import exception.ApplicationException;
+
 public class DBUtil {
 
 	static Connection conn;
@@ -20,7 +22,7 @@ public class DBUtil {
 	// step 2 - establish connection to the database
 	// made the method static here so that I can call the method with the class name
 	// as a result I had to make Connection conn also static.
-	static Connection makeConnection() {
+	static Connection makeConnection() throws ApplicationException {
 		String connectionUrl = "jdbc:postgresql://localhost:5432/book_management_system";
 		String userName = "postgres";
 		String password = "root";
@@ -35,8 +37,7 @@ public class DBUtil {
 			}
 			 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException();
 		}
 		return conn;
 	}

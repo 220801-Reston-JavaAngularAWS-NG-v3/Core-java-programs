@@ -1,5 +1,8 @@
 package service;
 
+import java.util.List;
+
+import exception.ApplicationException;
 import dao.BookDao;
 import dao.BookDaoJdbcImpl;
 import pojo.BookPojo;
@@ -21,27 +24,27 @@ public class BookServiceImpl implements BookService{
 
 	// the methods in my service layer don't do anything much, they just call the respective dao methods
 	@Override
-	public BookPojo[] getAllBooks() {
+	public List<BookPojo> getAllBooks()throws ApplicationException {
 		return bookDao.getAllBooks();
 	}
 
 	@Override
-	public BookPojo addBook(BookPojo bookPojo) {
+	public BookPojo addBook(BookPojo bookPojo)throws ApplicationException {
 		return bookDao.addBook(bookPojo);
 	}
 
 	@Override
-	public BookPojo updateBook(BookPojo bookPojo) {
+	public BookPojo updateBook(BookPojo bookPojo)throws ApplicationException {
 		return bookDao.updateBook(bookPojo);
 	}
 
 	@Override
-	public void deleteBook(int bookId) {
+	public void deleteBook(int bookId)throws ApplicationException {
 		bookDao.deleteBook(bookId);
 	}
 
 	@Override
-	public BookPojo getABook(int bookId) {
+	public BookPojo getABook(int bookId)throws ApplicationException {
 		return bookDao.getABook(bookId);
 	}
 

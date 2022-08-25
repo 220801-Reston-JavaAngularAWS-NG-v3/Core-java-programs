@@ -5,78 +5,98 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
+import exception.ApplicationException;
 import pojo.BookPojo;
 
 public class BookDaoJdbcImpl implements BookDao{
 
 	// next week once we have session on Collections we will change the return type of this method to a collection
 	@Override
-	public BookPojo[] getAllBooks() {
+	public List<BookPojo> getAllBooks()throws ApplicationException {
 		Connection connection = DBUtil.makeConnection();
-		BookPojo[] fetchedBooks = null;
+		List<BookPojo> allBooks = new ArrayList<BookPojo>();
 		try {
-			Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+			
+			Statement stmt = connection.createStatement();
 			String query = "SELECT * FROM book_details";
 			ResultSet rs = stmt.executeQuery(query);
 			
-			// create an array whose size is the same as the number of record available in the rs
-			
-			// first let us find out the number of records in the rs
-			int counter = 0;
 			while(rs.next()) {
-				counter++;
+				// creating a book pojo object and copying each record from the result set into the book pojo
+				BookPojo bookPojo = new BookPojo(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getInt(5), rs.getString(6));
+				// adding the book pojo to the collection
+				allBooks.add(bookPojo);
+				
 			}
-			// now create the BookPojo array
-			fetchedBooks = new BookPojo[counter];
 			
-			// iterating through the rs and copying it into the array
-			int i = 0;
-			rs.beforeFirst();
-			while(rs.next()) {
-				fetchedBooks[i] = new BookPojo();
-				fetchedBooks[i].setBookId(rs.getInt(1));
-				fetchedBooks[i].setBookTitle(rs.getString(2));
-				fetchedBooks[i].setBookAuthor(rs.getString(3));
-				fetchedBooks[i].setBookGenre(rs.getString(4));
-				fetchedBooks[i].setBookCost(rs.getInt(5));
-				fetchedBooks[i].setBookImageUrl(rs.getString(6));	
-				i++;
-			}
+			
+			// commented because collections is used
+			
+//			Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+//			String query = "SELECT * FROM book_details";
+//			ResultSet rs = stmt.executeQuery(query);
+//			
+//			// create an array whose size is the same as the number of record available in the rs
+//			
+//			// first let us find out the number of records in the rs
+//			int counter = 0;
+//			while(rs.next()) {
+//				counter++;
+//			}
+//			// now create the BookPojo array
+//			fetchedBooks = new BookPojo[counter];
+//			
+//			// iterating through the rs and copying it into the array
+//			int i = 0;
+//			rs.beforeFirst();
+//			while(rs.next()) {
+//				fetchedBooks[i] = new BookPojo();
+//				fetchedBooks[i].setBookId(rs.getInt(1));
+//				fetchedBooks[i].setBookTitle(rs.getString(2));
+//				fetchedBooks[i].setBookAuthor(rs.getString(3));
+//				fetchedBooks[i].setBookGenre(rs.getString(4));
+//				fetchedBooks[i].setBookCost(rs.getInt(5));
+//				fetchedBooks[i].setBookImageUrl(rs.getString(6));	
+//				i++;
+//			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException();
 		}
 		// return the array of book pojo objects
-		return fetchedBooks;
+		//return fetchedBooks;
+		
+		//  return the collection of book pojo
+		return allBooks;
 	}
 
 	@Override
-	public BookPojo addBook(BookPojo bookPojo) {
+	public BookPojo addBook(BookPojo bookPojo)throws ApplicationException {
 		Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
 		
-		String query = "INSERT INTO book_details(book_title, book_author, book_genre, book_cost, book_image_url) VALUES(?, ?, ?, ?, ?)";
+		//String query = "INSERT INTO book_details(book_title, book_author, book_genre, book_cost, book_image_url) VALUES(?, ?, ?, ?, ?)";
+		String query = "INSERT INTO book_details(book_title, book_author, book_genre, book_cost, book_image_url) VALUES('"+bookPojo.getBookTitle()+"','"+bookPojo.getBookAuthor()+"','"+bookPojo.getBookGenre()+"',"+bookPojo.getBookCost()+",'"+bookPojo.getBookImageUrl()+"') RETURNING book_id";
 		try {
-			PreparedStatement pstmt = connection.prepareStatement(query);
+			//PreparedStatement pstmt = connection.prepareStatement(query);
+			Statement stmt = connection.createStatement();
 			
-			pstmt.setString(1, bookPojo.getBookTitle());
-			pstmt.setString(2, bookPojo.getBookAuthor());
-			pstmt.setString(3, bookPojo.getBookGenre());
-			pstmt.setInt(4, bookPojo.getBookCost());
-			pstmt.setString(5, "");
+			//pstmt.executeUpdate();
 			
-			pstmt.executeUpdate();
-			
-			// what is pending is , get the auto generated book id and set it into the bookPojo and return the book pojo
+			// what is pending is , get the auto generated book id and set it into the bookPojo and return the book pojo - completed
+			ResultSet rs = stmt.executeQuery(query);
+			rs.next();
+			int autoGeneratedBookId = rs.getInt(1);
+			bookPojo.setBookId(autoGeneratedBookId);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException();
 		}
 		return bookPojo;
 	}
 
 	@Override
-	public BookPojo updateBook(BookPojo bookPojo) {
+	public BookPojo updateBook(BookPojo bookPojo) throws ApplicationException {
 Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
 		
 		String query = "UPDATE book_details SET book_cost=? WHERE book_id=?";
@@ -87,15 +107,14 @@ Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
 			pstmt.setInt(2, bookPojo.getBookId());
 						
 			pstmt.executeUpdate();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		} catch (SQLException e) { // we have caught SQLException
+			throw new ApplicationException(); // and we are rethrowing it as ApplicationException
 		}
 		return bookPojo;
 	}
 
 	@Override
-	public void deleteBook(int bookId) {
+	public void deleteBook(int bookId)throws ApplicationException {
 		Connection connection = DBUtil.makeConnection();
 		Statement stmt = null;
 		try {
@@ -103,14 +122,13 @@ Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
 			String query = "DELETE FROM book_details WHERE book_id=" + bookId;
 			stmt.executeUpdate(query);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException();
 		}
 		
 	}
 
 	@Override
-	public BookPojo getABook(int bookId) {
+	public BookPojo getABook(int bookId)throws ApplicationException {
 		Connection connection = DBUtil.makeConnection();
 		Statement stmt = null;
 		BookPojo bookPojo = null;
@@ -130,8 +148,7 @@ Connection connection = DBUtil.makeConnection(); // step 1 and 2 is done in this
 				bookPojo.setBookImageUrl(rs.getString(6));
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw new ApplicationException();
 		}
 		return bookPojo;
 	}

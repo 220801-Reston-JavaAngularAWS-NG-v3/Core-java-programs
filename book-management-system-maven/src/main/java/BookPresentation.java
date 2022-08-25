@@ -1,5 +1,7 @@
+import java.util.List;
 import java.util.Scanner;
 
+import exception.ApplicationException;
 import pojo.BookPojo;
 import service.BookService;
 import service.BookServiceImpl;
@@ -41,14 +43,18 @@ public class BookPresentation {
 				// will remove this statement later an dput the actual code here
 				// System.out.println("Listing all the books....");
 				
-				BookPojo[] fetchedAllBooks = bookService.getAllBooks();
+				List<BookPojo> fetchedAllBooks;
+				try {
+					fetchedAllBooks = bookService.getAllBooks();
+				} catch (ApplicationException e) {
+					System.out.println(e.getMessage()); // print the exception message on the console
+					break; // there is no point in continuing the case, so break out of it
+				}
 				System.out.println("=============================================================================");
 				System.out.println("ID\tTITLE\t\t\t\t\tAUTHOR\t\tGENRE\tCOST");
 				System.out.println("=============================================================================");
-				for(int i=0;i<fetchedAllBooks.length;i++) {
-					if(fetchedAllBooks[i] != null) {
-						System.out.println(fetchedAllBooks[i].getBookId() + "\t" + fetchedAllBooks[i].getBookTitle() + "\t" + fetchedAllBooks[i].getBookAuthor() + "\t" + fetchedAllBooks[i].getBookGenre() + "\t" + fetchedAllBooks[i].getBookCost());
-					}
+				for(int i=0;i<fetchedAllBooks.size();i++) {
+					System.out.println(fetchedAllBooks.get(i).getBookId() + "\t" + fetchedAllBooks.get(i).getBookTitle() + "\t" + fetchedAllBooks.get(i).getBookAuthor() + "\t" + fetchedAllBooks.get(i).getBookGenre() + "\t" + fetchedAllBooks.get(i).getBookCost());
 				}
 				System.out.println("=============================================================================");
 				break;
@@ -73,7 +79,13 @@ public class BookPresentation {
 				newBook.setBookGenre(bookGenre);
 				newBook.setBookCost(bookCost);
 				
-				BookPojo newBookPojoWithId = bookService.addBook(newBook);
+				BookPojo newBookPojoWithId;
+				try {
+					newBookPojoWithId = bookService.addBook(newBook);
+				} catch (ApplicationException e) {
+					System.out.println(e.getMessage()); // print the exception message on the console
+					break; // there is no point in continuing the case, so break out of it
+				}
 				System.out.println("*************************************************");
 				System.out.println("New book with ID " + newBookPojoWithId.getBookId() + " is added!! ");
 				
@@ -81,7 +93,13 @@ public class BookPresentation {
 			case 3:
 				System.out.println("Please enter the Book ID: ");
 				int bookId = scan.nextInt();
-				BookPojo fetchedBookPojo = bookService.getABook(bookId);
+				BookPojo fetchedBookPojo;
+				try {
+					fetchedBookPojo = bookService.getABook(bookId);
+				} catch (ApplicationException e) {
+					System.out.println(e.getMessage()); // print the exception message on the console
+					break; // there is no point in continuing the case, so break out of it
+				}
 				if(fetchedBookPojo == null) {
 					// the book with the id is not found
 					System.out.println("Book with ID " + bookId + " does not exist!!");
@@ -98,7 +116,12 @@ public class BookPresentation {
 					System.out.println("Enter the new cost: ");
 					int newCost = scan.nextInt();
 					fetchedBookPojo.setBookCost(newCost);
-					BookPojo updatedBookPojo =bookService.updateBook(fetchedBookPojo);
+					try {
+						BookPojo updatedBookPojo =bookService.updateBook(fetchedBookPojo);
+					} catch (ApplicationException e) {
+						System.out.println(e.getMessage()); // print the exception message on the console
+						break; // there is no point in continuing the case, so break out of it
+					}
 					System.out.println("*************************************************");
 					System.out.println("Book cost updated successfully!!");
 				}
@@ -107,7 +130,13 @@ public class BookPresentation {
 			case 4:
 				System.out.println("Please enter the Book ID to be removed: ");
 				int inputBookId = scan.nextInt();
-				BookPojo returnBookPojo = bookService.getABook(inputBookId);
+				BookPojo returnBookPojo;
+				try {
+					returnBookPojo = bookService.getABook(inputBookId);
+				} catch (ApplicationException e) {
+					System.out.println(e.getMessage()); // print the exception message on the console
+					break; // there is no point in continuing the case, so break out of it
+				}
 				if(returnBookPojo == null) {
 					// the book with the id is not found
 					System.out.println("Book with ID " + inputBookId + " does not exist!!");
@@ -125,14 +154,25 @@ public class BookPresentation {
 				System.out.println("Are you sure that you want to remove the book? (y/n) :");
 				char deleteConfirm = scan.next().charAt(0);
 				if(deleteConfirm == 'y') {
-					bookService.deleteBook(inputBookId);
+					try {
+						bookService.deleteBook(inputBookId);
+					} catch (ApplicationException e) {
+						System.out.println(e.getMessage()); // print the exception message on the console
+						break; // there is no point in continuing the case, so break out of it
+					}
 					System.out.println("Book removed!!");
 				}
 				break;
 			case 5:
 				System.out.println("Please enter the Book ID: ");
 				int fetchBookId = scan.nextInt();
-				BookPojo returnedBookPojo = bookService.getABook(fetchBookId);
+				BookPojo returnedBookPojo;
+				try {
+					returnedBookPojo = bookService.getABook(fetchBookId);
+				} catch (ApplicationException e) {
+					System.out.println(e.getMessage()); // print the exception message on the console
+					break; // there is no point in continuing the case, so break out of it
+				}
 				if(returnedBookPojo == null) {
 					// the book with the id is not found
 					System.out.println("Book with ID " + fetchBookId + " does not exist!!");

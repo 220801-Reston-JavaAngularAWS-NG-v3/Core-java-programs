@@ -2,6 +2,9 @@ package service;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import exception.ApplicationException;
 import dao.BookDao;
 import dao.BookDaoJdbcImpl;
@@ -9,6 +12,9 @@ import pojo.BookPojo;
 
 public class BookServiceImpl implements BookService{
 
+	// Logging Step 1 - obtain an instance of Logger
+	private static final Logger logger = LoggerFactory.getLogger(BookServiceImpl.class);
+	
 	// fill in the code later for each methods 
 	// will fill in after the dao layer is done
 	
@@ -25,26 +31,31 @@ public class BookServiceImpl implements BookService{
 	// the methods in my service layer don't do anything much, they just call the respective dao methods
 	@Override
 	public List<BookPojo> getAllBooks()throws ApplicationException {
+		logger.info("Entered getAllBooks() in service layer...");
 		return bookDao.getAllBooks();
 	}
 
 	@Override
 	public BookPojo addBook(BookPojo bookPojo)throws ApplicationException {
+		logger.info("Entered getAllBooks() in service layer...");
 		return bookDao.addBook(bookPojo);
 	}
 
 	@Override
 	public BookPojo updateBook(BookPojo bookPojo)throws ApplicationException {
+		logger.info("Entered getAllBooks() in service layer...");
 		return bookDao.updateBook(bookPojo);
 	}
 
 	@Override
 	public void deleteBook(int bookId)throws ApplicationException {
+		logger.info("Entered getAllBooks() in service layer...");
 		bookDao.deleteBook(bookId);
 	}
 
 	@Override
 	public BookPojo getABook(int bookId)throws ApplicationException {
+		logger.info("Entered getAllBooks() in service layer...");
 		return bookDao.getABook(bookId);
 	}
 

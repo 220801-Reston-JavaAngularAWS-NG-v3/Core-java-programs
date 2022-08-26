@@ -1,6 +1,10 @@
 import java.util.List;
 import java.util.Scanner;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import dao.BookDaoJdbcImpl;
 import exception.ApplicationException;
 import pojo.BookPojo;
 import service.BookService;
@@ -9,6 +13,9 @@ import service.BookServiceImpl;
 
 public class BookPresentation {
 
+	// Logging Step 1 - obtain an instance of Logger
+	private static final Logger logger = LoggerFactory.getLogger(BookPresentation.class);
+	
 	public static void main(String[] args) {
 
 		// here we will have the input and the outputs
@@ -47,6 +54,8 @@ public class BookPresentation {
 				try {
 					fetchedAllBooks = bookService.getAllBooks();
 				} catch (ApplicationException e) {
+					// Logging Step 2 - log the exception in each catch black
+					logger.error("Exception occurred : " + e.getMessage());
 					System.out.println(e.getMessage()); // print the exception message on the console
 					break; // there is no point in continuing the case, so break out of it
 				}
@@ -83,6 +92,9 @@ public class BookPresentation {
 				try {
 					newBookPojoWithId = bookService.addBook(newBook);
 				} catch (ApplicationException e) {
+					// Logging Step 2 - log the exception in each catch black
+					logger.error("Exception occurred : " + e.getMessage());
+					
 					System.out.println(e.getMessage()); // print the exception message on the console
 					break; // there is no point in continuing the case, so break out of it
 				}
@@ -97,6 +109,9 @@ public class BookPresentation {
 				try {
 					fetchedBookPojo = bookService.getABook(bookId);
 				} catch (ApplicationException e) {
+					// Logging Step 2 - log the exception in each catch black
+					logger.error("Exception occurred : " + e.getMessage());
+					
 					System.out.println(e.getMessage()); // print the exception message on the console
 					break; // there is no point in continuing the case, so break out of it
 				}
@@ -119,6 +134,9 @@ public class BookPresentation {
 					try {
 						BookPojo updatedBookPojo =bookService.updateBook(fetchedBookPojo);
 					} catch (ApplicationException e) {
+						// Logging Step 2 - log the exception in each catch black
+						logger.error("Exception occurred : " + e.getMessage());
+						
 						System.out.println(e.getMessage()); // print the exception message on the console
 						break; // there is no point in continuing the case, so break out of it
 					}
@@ -134,6 +152,9 @@ public class BookPresentation {
 				try {
 					returnBookPojo = bookService.getABook(inputBookId);
 				} catch (ApplicationException e) {
+					// Logging Step 2 - log the exception in each catch black
+					logger.error("Exception occurred : " + e.getMessage());
+					
 					System.out.println(e.getMessage()); // print the exception message on the console
 					break; // there is no point in continuing the case, so break out of it
 				}
@@ -157,6 +178,9 @@ public class BookPresentation {
 					try {
 						bookService.deleteBook(inputBookId);
 					} catch (ApplicationException e) {
+						// Logging Step 2 - log the exception in each catch black
+						logger.error("Exception occurred : " + e.getMessage());
+						
 						System.out.println(e.getMessage()); // print the exception message on the console
 						break; // there is no point in continuing the case, so break out of it
 					}
@@ -170,6 +194,9 @@ public class BookPresentation {
 				try {
 					returnedBookPojo = bookService.getABook(fetchBookId);
 				} catch (ApplicationException e) {
+					// Logging Step 2 - log the exception in each catch black
+					logger.error("Exception occurred : " + e.getMessage());
+					
 					System.out.println(e.getMessage()); // print the exception message on the console
 					break; // there is no point in continuing the case, so break out of it
 				}

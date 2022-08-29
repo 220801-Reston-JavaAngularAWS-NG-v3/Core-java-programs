@@ -17,10 +17,10 @@ import service.BookServiceImpl;
 public class BookServiceImplTest {
 
 	@InjectMocks
-	BookServiceImpl bookService = new BookServiceImpl();
+	BookServiceImpl bookService;
 
 	@Mock
-	BookDaoJdbcImpl bookDao = new BookDaoJdbcImpl();
+	BookDaoJdbcImpl bookDao;
 	
 	@Test
 	public void testGetABookWithoutMockito() {

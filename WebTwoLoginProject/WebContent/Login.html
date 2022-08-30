@@ -1,0 +1,19 @@
+<!DOCTYPE html> <!-- this line says that we are working with HTML 5 version -->
+<html> <!-- this is the root tag -->
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Login Page</title>
+	</head>
+	<body>
+		<!-- this represent the white section of the page -->
+		<form action="LoginServlet">
+			Username : <input type="text" name="username"><br><br>
+			Password : <input type="password" name="pass"><br><br>
+			<input type="submit" value="LOGIN" >
+			<input type="reset" value="CLEAR">
+			<!-- when i click the submit button the value that we entered in the form goes a request parmeters to the server
+			username=john&pass=smith
+			 -->
+		</form>
+	</body>
+</html>

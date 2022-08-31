@@ -6,12 +6,13 @@
 	</head>
 	<body>
 		<!-- this represent the white section of the page -->
-		<form action="LoginServlet">
+		<form action="LoginServlet" method="post"> <!-- method=post will hide the request parameters in the request body and will not expose them
+														int the url. if method is not specified default is get-->
 			Username : <input type="text" name="username"><br><br>
 			Password : <input type="password" name="pass"><br><br>
 			<input type="submit" value="LOGIN" >
 			<input type="reset" value="CLEAR">
-			<!-- when i click the submit button the value that we entered in the form goes a request parmeters to the server
+			<!-- when i click the submit button the value that we entered in the form goes as  request parmeters to the server
 			username=john&pass=smith
 			 -->
 		</form>

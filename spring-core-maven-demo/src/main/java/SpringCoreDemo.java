@@ -12,7 +12,7 @@ public class SpringCoreDemo {
 	public static void main(String[] args) {
 		
 		// first step is to create the spring core container
-		ApplicationContext container = new ClassPathXmlApplicationContext("any-name.xml");
+		ApplicationContext container = new ClassPathXmlApplicationContext("any-name.xml"); // first container
 		
 		// second step is ask the container for the bean object
 		//User myUser = (User) container.getBean("user");
@@ -37,7 +37,7 @@ public class SpringCoreDemo {
 		
 		System.out.println("------------------------");
 		System.out.println("Working with annotation based configuration");
-		ApplicationContext context = new ClassPathXmlApplicationContext("annotation-config.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("annotation-config.xml"); // second container
 		Player firstPlayer = context.getBean("player", Player.class);
 		
 		//firstPlayer.setFirstName("John");
@@ -48,7 +48,7 @@ public class SpringCoreDemo {
 		
 		System.out.println("------------------------");
 		System.out.println("Working with java based configuration");
-		ApplicationContext javaContainer = new AnnotationConfigApplicationContext(JavaBasedBeanConfiguration.class);
+		ApplicationContext javaContainer = new AnnotationConfigApplicationContext(JavaBasedBeanConfiguration.class); // third container
 		
 		User thirdUser = javaContainer.getBean("user", User.class);
 		System.out.println(thirdUser);

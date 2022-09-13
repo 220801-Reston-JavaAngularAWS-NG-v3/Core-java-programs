@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- configure the beans here -->
+	<!-- <bean id="user" class="demo.User"> --> <!-- here the defualt scope is singleton -->
+	<bean id="user" class="demo.User" scope="prototype">
+		<!--  constructor injection -->
+		<constructor-arg name="firstName" value="Carolin"></constructor-arg>
+		<constructor-arg name="lastName" value="Peter"></constructor-arg>
+		<constructor-arg name="contact" value="123456"></constructor-arg>
+		<constructor-arg name="address" ref="add"></constructor-arg>
+		
+		<!-- setter injection -->
+		<!-- <property name="firstName" value="Harry"></property>
+		<property name="lastName" value="Potter"></property> -->
+		
+	</bean>  
+	
+	<bean id="add" class="demo.Address">
+		<property name="city" value="Marietta"></property>
+		<property name="state" value="GA"></property>
+		<property name="zipcode" value="30064"></property>
+ 	</bean> 
+
+    <!-- more bean definitions go here -->
+
+</beans>

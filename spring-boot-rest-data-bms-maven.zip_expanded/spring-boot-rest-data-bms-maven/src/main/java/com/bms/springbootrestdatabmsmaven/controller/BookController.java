@@ -2,6 +2,8 @@ package com.bms.springbootrestdatabmsmaven.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,7 +33,7 @@ public class BookController {
 	// Read - getAllBooks - @GetMapping
 	// http://localhost:6666/api/books - get
 	@GetMapping("")
-	public List<BookPojo> getAllBooks() throws ApplicationException{
+	public List<BookPojo> getAllBooks(){
 		// call the corresponding getAllBooks method of the service layer
 		// for that we need to create an object of the service layer
 		// but with spring framework we can tell the framework to create the object
@@ -45,25 +47,25 @@ public class BookController {
 		// query param
 		// request param
 	@GetMapping("/{bid}")
-	public BookPojo getABook(@PathVariable("bid") int  bookId) throws ApplicationException {
+	public BookPojo getABook(@PathVariable("bid") int  bookId){
 		return bookService.getABook(bookId);
 	}
 	
 	// Create - addBook - @PostMapping
 	@PostMapping("")
-	public BookPojo addBook(@RequestBody BookPojo newBook) throws ApplicationException {
+	public BookPojo addBook(@Valid @RequestBody BookPojo newBook){
 		return bookService.addBook(newBook);
 	}
 	
 	// Update - updateBook - @PutMapping
 	@PutMapping("")
-	public BookPojo updateBook(@RequestBody BookPojo updateBook) throws ApplicationException {
+	public BookPojo updateBook(@RequestBody BookPojo updateBook){
 		return bookService.updateBook(updateBook);
 	}
 	
 	// Delete - deleteBook - @DeleteMapping
 	@DeleteMapping("/{bid}")
-	public void deleteBook(@PathVariable("bid") int bookId) throws ApplicationException {
+	public void deleteBook(@PathVariable("bid") int bookId){
 		bookService.deleteBook(bookId);
 	}
 	

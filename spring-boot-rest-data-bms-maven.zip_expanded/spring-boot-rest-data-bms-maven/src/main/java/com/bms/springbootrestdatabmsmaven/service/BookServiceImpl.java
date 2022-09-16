@@ -40,7 +40,7 @@ public class BookServiceImpl implements BookService{
 
 	// the methods in my service layer don't do anything much, they just call the respective dao methods
 	@Override
-	public List<BookPojo> getAllBooks()throws ApplicationException {
+	public List<BookPojo> getAllBooks(){
 		logger.info("Entered getAllBooks() in service layer...");
 		//return bookDao.getAllBooks();
 		List<BookEntity> allBooksEntity = bookDao.findAll();
@@ -54,7 +54,7 @@ public class BookServiceImpl implements BookService{
 	}
 
 	@Override
-	public BookPojo addBook(BookPojo bookPojo)throws ApplicationException {
+	public BookPojo addBook(BookPojo bookPojo){
 		logger.info("Entered getAllBooks() in service layer...");
 		//return bookDao.addBook(bookPojo);
 		BookEntity newBookEntity = new BookEntity();
@@ -66,7 +66,7 @@ public class BookServiceImpl implements BookService{
 	}
 
 	@Override
-	public BookPojo updateBook(BookPojo bookPojo)throws ApplicationException {
+	public BookPojo updateBook(BookPojo bookPojo){
 		logger.info("Entered getAllBooks() in service layer...");
 		//return bookDao.updateBook(bookPojo);
 		BookEntity newBookEntity = new BookEntity();
@@ -77,14 +77,14 @@ public class BookServiceImpl implements BookService{
 	}
 
 	@Override
-	public void deleteBook(int bookId)throws ApplicationException {
+	public void deleteBook(int bookId){
 		logger.info("Entered getAllBooks() in service layer...");
 		//bookDao.deleteBook(bookId);
 		bookDao.deleteById(bookId);
 	}
 
 	@Override
-	public BookPojo getABook(int bookId)throws ApplicationException {
+	public BookPojo getABook(int bookId){
 		logger.info("Entered getAllBooks() in service layer...");
 		//return bookDao.getABook(bookId);
 		Optional<BookEntity> optionalBookEntity = bookDao.findById(bookId);

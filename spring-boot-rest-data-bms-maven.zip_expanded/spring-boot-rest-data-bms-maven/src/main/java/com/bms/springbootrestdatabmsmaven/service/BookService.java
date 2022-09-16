@@ -12,18 +12,18 @@ public interface BookService {
 	// D - Delete
 	
 	// fetches all the books - Read
-	List<BookPojo> getAllBooks()throws ApplicationException;
+	List<BookPojo> getAllBooks();
 	
 	// adds a new book - Create
-	BookPojo addBook(BookPojo bookPojo)throws ApplicationException;
+	BookPojo addBook(BookPojo bookPojo);
 	
 	// updates an existing book - Update
-	BookPojo updateBook(BookPojo bookPojo)throws ApplicationException;
+	BookPojo updateBook(BookPojo bookPojo);
 	
 	// deletes an existing book - Delete
-	void deleteBook(int bookId)throws ApplicationException;
+	void deleteBook(int bookId);
 	
 	// fetches a book - Read
-	BookPojo getABook(int bookId)throws ApplicationException;
+	BookPojo getABook(int bookId);
 	
 }

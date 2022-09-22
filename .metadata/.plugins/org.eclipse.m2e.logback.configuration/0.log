@@ -5147,3 +5147,648 @@ Caused by: java.io.EOFException: input contained no data
 2022-09-19 09:48:54,389 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-19 09:48:54,389 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-09-19 09:48:54,390 [Worker-561: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-boot-rest-data-bms-maven.zip_expanded\spring-boot-rest-data-bms-maven\src\test\resources
+2022-09-20 16:49:49,836 [Worker-688: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-20 16:49:51,359 [Worker-688: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-demo-association-mapping:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\pom.xml.
+2022-09-20 16:49:53,770 [Worker-688: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-demo-association-mapping/src/main/java
+2022-09-20 16:49:53,770 [Worker-688: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-demo-association-mapping/src/main/resources
+2022-09-20 16:49:53,778 [Worker-688: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-demo-association-mapping/src/main/resources
+2022-09-20 16:49:53,796 [Worker-688: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-demo-association-mapping/src/test/java
+2022-09-20 16:50:00,071 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:00,072 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:00,072 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 16:50:00,077 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:50:00,081 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:00,081 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:00,081 [Worker-684: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 16:50:00,155 [Worker-688: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2022-09-20 16:50:01,224 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:01,224 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:01,225 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:50:01,225 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:50:01,229 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:01,229 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:01,229 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 16:50:15,427 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:15,427 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:15,428 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 16:50:15,430 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:50:15,431 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:15,431 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:15,431 [Worker-685: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 16:50:30,550 [Worker-689: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-20 16:50:30,914 [Worker-689: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-demo-association-mapping:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\pom.xml.
+2022-09-20 16:50:31,464 [Worker-689: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-demo-association-mapping/src/main/java
+2022-09-20 16:50:31,465 [Worker-689: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-demo-association-mapping/src/main/resources
+2022-09-20 16:50:31,465 [Worker-689: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-demo-association-mapping/src/main/resources
+2022-09-20 16:50:31,465 [Worker-689: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-demo-association-mapping/src/test/java
+2022-09-20 16:50:32,043 [Worker-689: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-09-20 16:50:32,592 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:32,593 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:32,593 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 16:50:32,596 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:50:32,597 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:50:32,597 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:50:32,597 [Worker-687: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 16:51:19,661 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:51:19,661 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:51:19,662 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 16:51:19,664 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:51:19,666 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:51:19,666 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:51:19,666 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 16:51:55,959 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:51:55,959 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:51:55,959 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 16:51:55,990 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 16:51:55,993 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 16:51:55,994 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 16:51:55,994 [Worker-678: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:06:30,450 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:06:30,507 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:06:30,528 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:06:30,771 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:06:30,814 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:06:30,814 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:06:30,814 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:08:47,848 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:08:47,851 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:08:47,860 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:08:47,917 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:08:47,991 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:08:47,991 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:08:47,992 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:08:57,716 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:08:57,716 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:08:57,717 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:08:57,726 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:08:57,729 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:08:57,729 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:08:57,729 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:09:07,375 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:07,375 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:07,379 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:09:07,390 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:09:07,393 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:07,393 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:07,393 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:09:18,525 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:18,525 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:18,527 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:09:18,554 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:09:18,562 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:18,563 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:18,563 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:09:27,402 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:27,402 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:27,406 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:09:27,432 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:09:27,443 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:09:27,443 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:09:27,444 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:10:49,077 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:10:49,078 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:10:49,080 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:10:49,129 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:10:49,137 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:10:49,137 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:10:49,138 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:11:16,047 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:16,047 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:16,048 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:11:16,066 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:11:16,070 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:16,070 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:16,070 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:11:19,560 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:19,560 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:19,561 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:11:19,578 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:11:19,581 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:19,581 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:19,581 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:11:42,001 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:42,002 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:42,003 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:11:42,022 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:11:42,035 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:11:42,035 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:11:42,035 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:12:48,507 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:12:48,509 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:12:48,513 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:12:48,536 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:12:48,545 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:12:48,546 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:12:48,546 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:13:14,305 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:13:14,305 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:13:14,306 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:13:14,347 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:13:14,352 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:13:14,352 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:13:14,352 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:13:26,345 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:13:26,345 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:13:26,346 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:13:26,355 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:13:26,358 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:13:26,359 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:13:26,359 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:14:07,163 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:14:07,164 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:14:07,165 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:14:07,215 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:14:07,219 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:14:07,219 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:14:07,219 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:14:41,173 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:14:41,173 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:14:41,174 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:14:41,191 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:14:41,193 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:14:41,193 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:14:41,193 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:15:17,262 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:15:17,263 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:15:17,264 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:15:17,280 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:15:17,284 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:15:17,284 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:15:17,284 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:15:27,692 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:15:27,692 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:15:27,694 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:15:27,710 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:15:27,713 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:15:27,714 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:15:27,714 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:16:14,928 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:16:14,928 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:16:14,929 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:16:14,945 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:16:14,948 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:16:14,949 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:16:14,949 [Worker-697: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:16:53,000 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:16:53,001 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:16:53,002 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:16:53,019 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:16:53,022 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:16:53,022 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:16:53,022 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:17:14,175 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:14,176 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:14,181 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:17:14,192 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:17:14,195 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:14,196 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:14,196 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:17:41,259 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:41,259 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:41,261 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:17:41,270 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:17:41,275 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:41,275 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:41,275 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:17:54,985 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:54,985 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:54,986 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:17:54,999 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:17:55,005 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:17:55,006 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:17:55,007 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:18:01,147 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:18:01,148 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:18:01,149 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:18:01,164 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:18:01,168 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:18:01,168 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:18:01,168 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:18:25,794 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:18:25,795 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:18:25,798 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:18:25,840 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:18:25,855 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:18:25,855 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:18:25,856 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:19:08,160 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:08,161 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:08,166 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:19:08,182 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:19:08,186 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:08,186 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:08,186 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:19:22,626 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:22,626 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:22,628 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:19:22,644 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:19:22,647 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:22,647 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:22,647 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:19:45,539 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:45,539 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:45,540 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:19:45,559 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:19:45,574 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:45,575 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:45,576 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:19:49,096 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:49,096 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:49,098 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:19:49,107 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:19:49,110 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:19:49,111 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:19:49,111 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:20:43,288 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:20:43,289 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:20:43,292 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:20:43,338 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:20:43,350 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:20:43,351 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:20:43,351 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:20:57,297 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:20:57,297 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:20:57,298 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:20:57,313 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:20:57,318 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:20:57,318 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:20:57,318 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:21:08,586 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:08,586 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:08,592 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:21:08,630 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:21:08,634 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:08,634 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:08,634 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:21:38,901 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:38,901 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:38,903 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:21:38,925 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:21:38,931 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:38,932 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:38,932 [Worker-696: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:21:49,815 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:49,815 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:49,817 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:21:49,840 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:21:49,858 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:21:49,859 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:21:49,859 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:22:40,361 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:22:40,362 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:22:40,362 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:22:40,382 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:22:40,386 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:22:40,386 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:22:40,386 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:24:53,539 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:24:53,540 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:24:53,541 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:24:53,635 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:24:53,638 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:24:53,638 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:24:53,638 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:25:31,615 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:25:31,615 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:25:31,615 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:25:31,698 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:25:31,702 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:25:31,702 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:25:31,702 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:25:48,970 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:25:48,971 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:25:48,973 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:25:49,015 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:25:49,033 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:25:49,034 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:25:49,035 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:27:17,590 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:27:17,590 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:27:17,591 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:27:17,617 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:27:17,639 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:27:17,640 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:27:17,641 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:28:12,408 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:28:12,408 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:28:12,410 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:28:12,493 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:28:12,498 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:28:12,498 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:28:12,498 [Worker-688: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:29:09,044 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:09,044 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:09,046 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:29:09,065 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:29:09,068 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:09,071 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:09,071 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:29:25,227 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:25,228 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:25,229 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:29:25,239 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:29:25,243 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:25,243 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:25,243 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:29:45,337 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:45,340 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:45,345 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:29:45,356 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:29:45,359 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:45,359 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:45,359 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:29:55,367 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:55,367 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:55,368 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:29:55,380 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:29:55,382 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:29:55,382 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:29:55,382 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:30:21,929 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:30:21,929 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:30:21,930 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:30:21,951 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:30:21,955 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:30:21,955 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:30:21,955 [Worker-694: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:31:01,150 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:31:01,150 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:31:01,152 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:31:01,170 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:31:01,173 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:31:01,173 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:31:01,173 [Worker-698: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:31:15,944 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:31:15,944 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:31:15,946 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:31:15,979 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:31:15,989 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:31:15,990 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:31:15,990 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:32:41,007 [Worker-702: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring-demo-association-mapping:0.0.1-SNAPSHOT @ D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\pom.xml.
+2022-09-20 17:32:44,790 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:32:44,790 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:32:44,790 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:32:44,791 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:32:44,793 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:32:44,794 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:32:44,794 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:32:48,689 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:32:48,689 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:32:48,692 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:32:48,703 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:32:48,707 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:32:48,707 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:32:48,707 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:34:50,459 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:34:50,461 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:34:50,464 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:34:50,760 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:34:50,765 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:34:50,765 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:34:50,765 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:37:47,695 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:37:47,696 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:37:47,702 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:37:47,739 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:37:47,743 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:37:47,744 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:37:47,744 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:37:54,108 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:37:54,108 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:37:54,109 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:37:54,120 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:37:54,125 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:37:54,125 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:37:54,126 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:38:33,567 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:38:33,570 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:38:33,574 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:38:33,624 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:38:33,629 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:38:33,629 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:38:33,629 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:40:03,353 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:40:03,354 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:40:03,355 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:40:03,373 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:40:03,376 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:40:03,376 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:40:03,376 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:40:43,326 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:40:43,327 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:40:43,329 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:40:43,352 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:40:43,365 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:40:43,367 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:40:43,367 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:41:19,749 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:41:19,749 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:41:19,750 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:41:19,767 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:41:19,770 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:41:19,770 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:41:19,770 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:42:50,756 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:42:50,759 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:42:50,766 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:42:50,793 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:42:50,798 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:42:50,798 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:42:50,798 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:43:20,757 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:43:20,758 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:43:20,760 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:43:20,780 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:43:20,807 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:43:20,807 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:43:20,807 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:43:58,824 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:43:58,825 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:43:58,827 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:43:58,845 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:43:58,848 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:43:58,848 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:43:58,848 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:44:16,068 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:44:16,069 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:44:16,072 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:44:16,089 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:44:16,091 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:44:16,091 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:44:16,092 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:45:07,150 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:45:07,151 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:45:07,153 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:45:07,180 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:45:07,195 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:45:07,195 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:45:07,195 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:45:47,694 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:45:47,694 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:45:47,695 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:45:47,730 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:45:47,746 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:45:47,746 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:45:47,746 [Worker-702: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:46:07,171 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:46:07,171 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:46:07,173 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:46:07,191 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:46:07,194 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:46:07,194 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:46:07,194 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:46:34,910 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:46:34,910 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:46:34,912 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:46:34,960 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:46:34,965 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:46:34,965 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:46:34,965 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:47:20,550 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:47:20,551 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:47:20,553 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:47:20,569 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:47:20,573 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:47:20,573 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:47:20,573 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:47:27,189 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:47:27,190 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:47:27,194 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:47:27,219 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:47:27,221 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:47:27,221 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:47:27,221 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:48:33,156 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:48:33,157 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:48:33,158 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:48:33,176 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:48:33,179 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:48:33,179 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:48:33,179 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:49:00,638 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:00,639 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:00,644 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:49:00,666 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:49:00,673 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:00,674 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:00,674 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:49:14,771 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:14,771 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:14,773 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:49:14,782 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:49:14,786 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:14,786 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:14,786 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:49:20,267 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:20,267 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:20,269 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:49:20,279 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:49:20,282 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:20,282 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:20,282 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:49:44,949 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:44,950 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:44,952 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:49:44,970 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:49:44,974 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:44,974 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:44,974 [Worker-706: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:49:58,961 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:58,961 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:58,962 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:49:58,972 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:49:58,975 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:49:58,976 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:49:58,976 [Worker-699: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:50:40,438 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:50:40,438 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:50:40,439 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:50:40,456 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:50:40,458 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:50:40,459 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:50:40,459 [Worker-700: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:51:07,250 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:51:07,251 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:51:07,252 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:51:07,271 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:51:07,274 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:51:07,274 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:51:07,274 [Worker-695: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:53:31,239 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:53:31,239 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:53:31,249 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:53:31,320 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:53:31,326 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:53:31,327 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:53:31,327 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:55:17,685 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:55:17,687 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:55:17,689 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:55:17,751 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:55:17,767 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:55:17,768 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:55:17,768 [Worker-693: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:56:36,353 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:56:36,353 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:56:36,354 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:56:36,438 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:56:36,444 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:56:36,444 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:56:36,444 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:58:33,750 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:58:33,754 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:58:33,757 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:58:35,117 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:58:35,126 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:58:35,127 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:58:35,127 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 17:58:59,777 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:58:59,777 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:58:59,778 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 17:58:59,800 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 17:58:59,804 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 17:58:59,804 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 17:58:59,805 [Worker-701: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:00:10,028 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:00:10,029 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:00:10,031 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:00:10,076 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:00:10,079 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:00:10,079 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:00:10,080 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:01:27,246 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:01:27,247 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:01:27,249 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:01:27,277 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:01:27,280 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:01:27,281 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:01:27,281 [Worker-703: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:02:33,168 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:02:33,169 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:02:33,170 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:02:33,223 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:02:33,226 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:02:33,227 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:02:33,227 [Worker-705: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:02:59,270 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:02:59,272 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:02:59,275 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:02:59,298 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:02:59,307 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:02:59,308 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:02:59,308 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:03:46,163 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:03:46,163 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:03:46,164 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:03:46,181 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:03:46,184 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:03:46,184 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:03:46,185 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
+2022-09-20 18:04:33,407 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:04:33,409 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:04:33,410 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-20 18:04:33,439 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-20 18:04:33,452 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-20 18:04:33,453 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-20 18:04:33,454 [Worker-704: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Poongs\eclipse-workspace\1stAug-workspace\spring-demo-association-mapping.zip_expanded\spring-demo-association-mapping\src\test\resources
